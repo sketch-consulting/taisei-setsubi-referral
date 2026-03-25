@@ -1,0 +1,44 @@
+{
+  "company_name": "大成設備工業株式会社",
+  "representative": "代表取締役社長　狩俣　吉信",
+  "founded": "1984年7月2日",
+  "address": "沖縄県那覇市首里石嶺町4丁目444番地6",
+  "business": "建物とインフラの「水・空気・電気」を担う総合設備工事会社。管工事、プラント関連工事、土木工事全般。",
+  "employee_count": "60名（2026年4月）",
+  "license_info": "沖縄県知事許可（特-3）第5733号",
+
+  "hero_title": "知人が繋いでくれた、\n新しいキャリアの描きかた。",
+  "hero_subtitle": "私たちの仲間から案内されたあなたへ。現場の日常をここに集めました。",
+  "hero_cta": "まずはカジュアルに話を聞く",
+  "hero_image": "images/main.png",
+
+  "culture_title": "人が温かいのに、挑戦スピードが速い会社です。",
+  "culture_body": "大成設備工業の一番の特徴は、「人の温かさ」と「挑戦するスピード」が同居していること。困っている人がいれば自然と誰かが手を差し伸べる。一方で、「やってみよう」という声にはとても前向きで、新しい取り組みはすぐに形になります。安心して働ける環境と、成長を後押しするスピード感。その両方があるからこそ、人が長く活躍できる会社です。",
+
+  "external_link_url": "https://note.com/taiseisetsubi",
+  "external_link_label": "社員インタビュー記事をnoteで読む",
+
+  "gallery_images": [
+    "images/gallery1.jpg",
+    "images/gallery2.jpg",
+    "images/gallery3.jpg",
+    "images/gallery4.jpg"
+  ],
+
+  "steps": [
+    { "number": "01", "title": "エントリーフォームにご入力", "description": "本ページ下部の専用フォームよりご連絡ください。" },
+    { "number": "02", "title": "当社よりご連絡", "description": "紹介者であるご友人を通じて、担当よりご連絡します。" },
+    { "number": "03", "title": "優先的にご面談", "description": "特別なルートをご案内。まずは相互理解を深めましょう。" },
+    { "number": "04", "title": "採否のご連絡", "description": "入社日は現職の都合に合わせて柔軟に調整可能です。" }
+  ],
+
+  "jobs": [
+    { "title": "管工事 施工管理（現場代理人）", "content": "管工事における施工管理全般を担当します。現場代理人として工程・品質・安全を管理します。", "requirements": "施工管理の実務経験\n管工事に関する基礎知識" },
+    { "title": "プラント工事 施工管理（現場代理人）", "content": "プラント工事の施工管理全般を担当します。", "requirements": "施工管理の実務経験\nプラント関連の知識" },
+    { "title": "土木工事 施工管理（現場代理人）", "content": "土木工事の施工管理全般を担当します。", "requirements": "土木施工管理の実務経験" },
+    { "title": "施工管理補佐", "content": "管工事・プラント工事・土木工事の施工管理をサポートします。", "requirements": "建設・設備業界での実務経験（未経験歓迎）" },
+    { "title": "配管工", "content": "配管の施工・取り付け作業を担当します。", "requirements": "配管工としての実務経験" }
+  ],
+
+  "form_embed_url": "https://docs.google.com/forms/d/e/1FAIpQLSfCRXTbzG6S1dKBRrbE0SKKijdeqsAv_bQCKNCei_kXS0q9PQ/viewform?embedded=true"
+}
