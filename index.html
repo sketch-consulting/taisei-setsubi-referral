@@ -129,7 +129,7 @@
         .hero-subtitle {
             font-family: 'Noto Sans JP', sans-serif;
             color: #555555;
-            font-size: clamp(0.875rem, 2vw, 1rem);
+            font-size: clamp(1rem, 2vw, 1.125rem);
             line-height: 2;
             letter-spacing: 0.04em;
             margin-bottom: 2rem;
@@ -284,7 +284,7 @@
             <span id="header-company-name" class="font-bold tracking-tight text-base md:text-xl text-warm uppercase"></span>
 
             <!-- デスクトップナビ -->
-            <nav class="hidden md:flex items-center space-x-6 text-sm font-bold">
+            <nav class="hidden md:flex items-center space-x-6 text-base font-bold">
                 <a href="#steps"   class="hover:text-warm transition">選考ステップ</a>
                 <a href="#gallery" class="hover:text-warm transition">職場風景</a>
                 <a href="#culture" class="hover:text-warm transition">カルチャー</a>
@@ -547,8 +547,8 @@
                     ${step.number}
                 </div>
                 <div>
-                    <h3 class="font-bold mb-2 text-sm md:text-base">${step.title}</h3>
-                    <p class="text-xs text-gray-500 leading-relaxed">${step.description}</p>
+                    <h3 class="font-bold mb-2 text-base md:text-lg">${step.title}</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">${step.description}</p>
                 </div>
             </div>
         `).join('');
@@ -598,7 +598,7 @@
                     </div>
                     <div class="pt-2">
                         <a href="#form" class="inline-block bg-warm text-white text-xs font-bold px-5 py-2 rounded-full hover:opacity-90 transition shadow-sm">
-                            この職種に応募する
+                            この職種の話を聞く
                         </a>
                     </div>
                 </div>
