@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- 会社情報設定ファイル（このファイルだけ編集してください） -->
+    <script src="company.js"></script>
 
     <style>
         /* ============================================================
@@ -333,6 +335,23 @@
 
 
     <!-- ============================================================
+         1.5. リファラル選考とは
+    ============================================================ -->
+    <section class="py-16 px-5 md:px-8 bg-white/60">
+        <div class="max-w-3xl mx-auto fade-in">
+            <h2 class="section-title">リファラル選考とは</h2>
+            <div class="culture-card rounded-2xl p-8 md:p-10 shadow-sm text-center">
+                <p class="text-gray-700 text-base md:text-lg leading-relaxed">
+                    社員からの紹介による採用制度です。<br>
+                    「信頼」をベースにした採用手法であり、<br>
+                    企業・応募者双方のリスクを下げる仕組みです。
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
          2. 選考ステップ
     ============================================================ -->
     <section id="steps" class="py-20 px-5 md:px-8">
@@ -504,22 +523,18 @@
     }
 
     /* --------------------------------------------------
-       company.json の読み込みとレンダリング
+       company.js の読み込みとレンダリング
+       ※ fetch不要・ローカルファイルでもそのまま動作
     -------------------------------------------------- */
-    async function loadCompany() {
-        let c;
-        try {
-            const res = await fetch('company.json');
-            if (!res.ok) throw new Error('company.json が見つかりません');
-            c = await res.json();
-        } catch (e) {
+    function loadCompany() {
+        if (typeof window.COMPANY_DATA === 'undefined') {
             document.body.innerHTML = `<div style="padding:4rem;text-align:center;font-family:sans-serif;">
-                <h1 style="color:#2E87D4;">company.json の読み込みに失敗しました</h1>
-                <p>${e.message}</p>
+                <h1 style="color:#2E87D4;">company.js が読み込まれていません</h1>
+                <p>index.html と同じフォルダに company.js があるか確認してください。</p>
             </div>`;
             return;
         }
-        render(c);
+        render(window.COMPANY_DATA);
     }
 
     function render(c) {
